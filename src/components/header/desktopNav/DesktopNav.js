@@ -11,10 +11,13 @@ const DesktopNav = () => {
     <StyledDesktopNav className='desktop'>
       <Link to='/projects'>Projects</Link>
       <Link to='/about'>About</Link>
-      <a href='https://www.linkedin.com/in/jakegrella/' target='blank'>
+      <a
+        href='https://www.linkedin.com/in/jakegrella/'
+        target='blank'
+        rel='noreferrer'>
         <LinkedInIcon />
       </a>
-      <a href='https://twitter.com/jakegrella' target='blank'>
+      <a href='https://twitter.com/jakegrella' target='blank' rel='noreferrer'>
         <TwitterIcon />
       </a>
     </StyledDesktopNav>
