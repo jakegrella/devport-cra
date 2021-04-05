@@ -18,17 +18,17 @@ export default function HomePage() {
           imgAlt='lambda alumni network'
           title='Lambda Alumni Network'
           description='A unified, private community for Lambda School alumni to connect, advance their careers, and give back in a forum-like environment.'
-          demoLink='https://jakegrella.com'
-          gitHubLink='https://github.com/jakegrella'
+          demoLink='https://main.d37zm5ayhfot8q.amplifyapp.com/'
+          gitHubLink='https://github.com/Lambda-School-Labs/lan-fe-a'
         />
-        <ProjectCard
+        {/* <ProjectCard
           imgURL='https://images.unsplash.com/photo-1557683325-3ba8f0df79de'
           imgAlt='townsquare'
           title='Townsquare'
           description='A platform for citizens to make their voices heard on the issues they would like to see resolved in their community.'
           demoLink='https://jakegrella.com'
           gitHubLink='https://github.com/jakegrella'
-        />
+        /> */}
         <Link to='/projects' className='all-projects-btn'>
           View All Projects
         </Link>
