@@ -20,11 +20,11 @@ export default function ProjectCard(props) {
                 <FaGithub />
               </a>
             </div>
-            <div className='tech'>
+            {/* <div className='tech'>
               <h4>Tech</h4>
               <FaReact />
               <FaJsSquare />
-            </div>
+            </div> */}
           </div>
           <p>{description}</p>
         </div>
