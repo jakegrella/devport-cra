@@ -1,6 +1,7 @@
 import React from 'react';
 import StyledProjectCard from './ProjectCardStyles';
-import { FaLink, FaGithub, FaJsSquare, FaReact } from 'react-icons/fa';
+// import { FaLink, FaGithub, FaJsSquare, FaReact } from 'react-icons/fa';
+import { FaLink, FaGithub } from 'react-icons/fa';
 
 export default function ProjectCard(props) {
   const { imgURL, imgAlt, title, description, demoLink, gitHubLink } = props;
