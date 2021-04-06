@@ -7,7 +7,7 @@ export default function Footer() {
       <div>
         <p>© Jake Grella</p>
         <a
-          href='https://drive.google.com/file/d/1RUm0KNUk3rjN3Ag80BnXeasCi8WiSZ_5/view?usp=sharing'
+          href='https://drive.google.com/file/d/1uYNaSvkKEBtHScfWfOb_VdHc_15iqS12/view?usp=sharing'
           target='blank'
           rel='noreferrer'>
           Resume
