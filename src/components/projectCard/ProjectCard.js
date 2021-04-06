@@ -25,10 +25,10 @@ export default function ProjectCard(props) {
           <div className='link-stack-container'>
             <div className='links'>
               <h4>Links</h4>
-              <a href={demoLink} target='blank'>
+              <a href={demoLink} target='_blank' rel='noreferrer'>
                 <FaLink />
               </a>
-              <a href={gitHubLink} target='blank'>
+              <a href={gitHubLink} target='_blank' rel='noreferrer'>
                 <FaGithub />
               </a>
             </div>

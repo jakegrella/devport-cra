@@ -30,25 +30,25 @@ export default function AboutPage() {
           <div className='about-top-links'>
             <a
               href='https://drive.google.com/file/d/1RUm0KNUk3rjN3Ag80BnXeasCi8WiSZ_5/view?usp=sharing'
-              target='blank'
+              target='_blank'
               rel='noreferrer'>
               resume
             </a>
             <a
               href='https://github.com/jakegrella'
-              target='blank'
+              target='_blank'
               rel='noreferrer'>
               github
             </a>
             <a
               href='https://www.linkedin.com/in/jakegrella/'
-              target='blank'
+              target='_blank'
               rel='noreferrer'>
               linkedin
             </a>
             <a
               href='https://twitter.com/jakegrella'
-              target='blank'
+              target='_blank'
               rel='noreferrer'>
               twitter
             </a>

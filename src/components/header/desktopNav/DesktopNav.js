@@ -13,11 +13,11 @@ const DesktopNav = () => {
       <Link to='/about'>About</Link>
       <a
         href='https://www.linkedin.com/in/jakegrella/'
-        target='blank'
+        target='_blank'
         rel='noreferrer'>
         <LinkedInIcon />
       </a>
-      <a href='https://twitter.com/jakegrella' target='blank' rel='noreferrer'>
+      <a href='https://twitter.com/jakegrella' target='_blank' rel='noreferrer'>
         <TwitterIcon />
       </a>
     </StyledDesktopNav>
