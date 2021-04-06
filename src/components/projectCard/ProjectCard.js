@@ -4,11 +4,22 @@ import StyledProjectCard from './ProjectCardStyles';
 import { FaLink, FaGithub } from 'react-icons/fa';
 
 export default function ProjectCard(props) {
-  const { imgURL, imgAlt, title, description, demoLink, gitHubLink } = props;
+  const {
+    mockImg,
+    bgImg,
+    imgAlt,
+    title,
+    description,
+    demoLink,
+    gitHubLink
+  } = props;
   return (
     <>
       <StyledProjectCard className='project-card'>
-        <img src={imgURL} alt={imgAlt} />
+        <div className='img-container'>
+          <img className='mock' src={mockImg} alt={imgAlt} />
+          <img className='bg' src={bgImg} alt={imgAlt} />
+        </div>
         <div className='project-card-words'>
           <h3>{title}</h3>
           <div className='link-stack-container'>

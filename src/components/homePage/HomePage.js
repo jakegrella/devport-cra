@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import StyledHomePage from './HomePageStyles';
 import ProjectCard from '../projectCard/ProjectCard';
+import lanMock from '../../assets/lan-mock.png';
 
 export default function HomePage() {
   return (
@@ -14,7 +15,8 @@ export default function HomePage() {
       </div>
       <section className='project-cards-section'>
         <ProjectCard
-          imgURL='https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3'
+          mockImg={lanMock}
+          bgImg='https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3'
           imgAlt='lambda alumni network'
           title='Lambda Alumni Network'
           description='A unified, private community for Lambda School alumni to connect, advance their careers, and give back in a forum-like environment.'
