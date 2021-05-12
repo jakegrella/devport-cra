@@ -10,21 +10,21 @@ import ProjectsPage from '../src/components/projectsPage/ProjectsPage';
 import AboutPage from '../src/components/aboutPage/AboutPage';
 
 export default function App() {
-	return (
-		<StyledApp>
-			<Header />
+  return (
+    <StyledApp>
+      <Header />
 
-			<Route exact path='/about'>
-				<AboutPage />
-			</Route>
-			<Route exact path='/projects'>
-				<ProjectsPage />
-			</Route>
-			<Route exact path='/'>
-				<HomePage />
-			</Route>
+      <Route exact path='/about'>
+        <AboutPage />
+      </Route>
+      <Route exact path='/work'>
+        <ProjectsPage />
+      </Route>
+      <Route exact path='/'>
+        <HomePage />
+      </Route>
 
-			<Footer />
-		</StyledApp>
-	);
+      <Footer />
+    </StyledApp>
+  );
 }

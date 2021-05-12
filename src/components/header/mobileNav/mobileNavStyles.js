@@ -14,8 +14,11 @@ const StyledMobileNav = styled.header`
   justify-content: center;
   a {
     font-size: 3rem;
+    font-weight: 600;
+    text-decoration: none;
     padding: 5rem 25%;
   }
+
   @media (max-width: ${(pr) => pr.theme.tablet}) {
     .mobile-nav a {
       display: none;

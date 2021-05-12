@@ -5,7 +5,7 @@ const StyledHeader = styled.header`
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 15rem 0;
+  margin: 0 0 5rem 0;
   img {
     width: 20rem;
   }

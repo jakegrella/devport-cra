@@ -9,7 +9,7 @@ import StyledMobileNav from './mobileNavStyles';
 const MobileNav = () => {
   return (
     <StyledMobileNav className='mobile-nav'>
-      <Link to='/projects'>work</Link>
+      <Link to='/work'>work</Link>
       <Link to='/about'>about</Link>
       <a
         href='https://www.linkedin.com/in/jakegrella/'

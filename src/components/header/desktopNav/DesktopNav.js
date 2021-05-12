@@ -9,15 +9,21 @@ import StyledDesktopNav from './desktopNavStyles';
 const DesktopNav = () => {
   return (
     <StyledDesktopNav className='desktop'>
-      <Link to='/projects'>work</Link>
+      <Link to='/work'>work</Link>
       <Link to='/about'>about</Link>
       <a
+        className='icons'
         href='https://www.linkedin.com/in/jakegrella/'
         target='_blank'
         rel='noreferrer'>
         <LinkedInIcon />
       </a>
-      <a href='https://twitter.com/jakegrella' target='_blank' rel='noreferrer'>
+
+      <a
+        className='icons'
+        href='https://twitter.com/jakegrella'
+        target='_blank'
+        rel='noreferrer'>
         <TwitterIcon />
       </a>
     </StyledDesktopNav>
