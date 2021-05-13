@@ -13,12 +13,12 @@ import theme from './theme';
 import App from './App';
 
 render(
-	<Router>
-		<ScrollToTop>
-			<ThemeProvider theme={theme}>
-				<App />
-			</ThemeProvider>
-		</ScrollToTop>
-	</Router>,
-	document.querySelector('#root')
+  <Router>
+    <ScrollToTop>
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    </ScrollToTop>
+  </Router>,
+  document.querySelector('#root')
 );
