@@ -33,7 +33,6 @@ const StyledProjectCard = styled.div`
     width: 40%;
     margin-left: 5rem;
     h3 {
-      font-size: 4.8rem;
       margin-bottom: 1rem;
     }
     .link-stack-container {
