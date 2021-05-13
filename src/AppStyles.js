@@ -23,7 +23,7 @@ const StyledApp = styled.div`
     font-weight: 600;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 600;
   }
   h4 {
