@@ -5,12 +5,12 @@ export default function Footer() {
   return (
     <StyledFooter>
       <div>
-        <p>© Jake Grella</p>
+        <p>© jake grella</p>
         <a
           href='https://drive.google.com/file/d/1uYNaSvkKEBtHScfWfOb_VdHc_15iqS12/view?usp=sharing'
           target='_blank'
           rel='noreferrer'>
-          Resume
+          resume
         </a>
       </div>
       <div>
@@ -24,10 +24,10 @@ export default function Footer() {
           href='https://unsplash.com/@jakegrella'
           target='_blank'
           rel='noreferrer'>
-          Photo
+          photo
         </a>
         <a href='https://www.dwylco.com' target='_blank' rel='noreferrer'>
-          Dwylco ⚠️
+          RELENTLESS DRIVE ⚠️
         </a>
       </div>
     </StyledFooter>

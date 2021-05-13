@@ -5,9 +5,8 @@ const StyledFooter = styled.footer`
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin: 15rem 0 0 0;
+  margin: 5rem 0 0 0;
   color: ${(pr) => pr.theme.black};
-  text-transform: lowercase;
   div {
     /* border: 1px solid green; */
     display: flex;
