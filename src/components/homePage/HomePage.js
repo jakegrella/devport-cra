@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import StyledHomePage from './HomePageStyles';
-import ProjectCard from '../projectCard/ProjectCard';
-import lanMock from '../../assets/lan-mock.png';
+// import ProjectCard from '../projectCard/ProjectCard';
+// import lanMock from '../../assets/lan-mock.png';
 
 export default function HomePage() {
   return (
