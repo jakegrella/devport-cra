@@ -1,8 +1,6 @@
 import React from 'react';
 import ProjectCard from '../projectCard/ProjectCard';
 import lanMock from '../../assets/lan-mock.png';
-import dwylcoMock from '../../assets/dwylco-mock.png';
-import expatLogMock from '../../assets/expat-log-mock.png';
 import portfolioMock from '../../assets/portfolio-mock.png';
 
 export default function projectsPage() {
@@ -11,44 +9,45 @@ export default function projectsPage() {
       <ProjectCard
         mockImg={lanMock}
         bgImg='https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3'
+        imgAlt='waterpolo.co'
+        title='waterpolo.co'
+        description='A platform for users to access everything about the sport of water polo. From news to rules to stats and rankings, the goal of waterpolo.co is to grow the community around water polo. There is also a heavy emphasis on post high school options for athletes.'
+        demoLink='https://waterpolo.co'
+        gitHubLink='https://github.com/Lambda-School-Labs/lan-fe-a'
+      />
+      <ProjectCard
+        mockImg={lanMock}
+        bgImg='https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3'
         imgAlt='lambda alumni network'
-        title='Lambda Alumni Network'
-        description='A unified, private community for Lambda School alumni to connect, advance their careers, and give back in a forum-like environment.'
+        title='lambda alumni network'
+        description='A unified, private community for Lambda School alumni to connect, advance their careers, and give back in a forum-like environment. Creating a place for all alumni to stay in touch has been an important objective to Lambda School, and although this is a work in progress, it is a great start.'
         demoLink='https://main.d37zm5ayhfot8q.amplifyapp.com/'
         gitHubLink='https://github.com/Lambda-School-Labs/lan-fe-a'
       />
-      {/* <ProjectCard
+      <ProjectCard
+        mockImg={lanMock}
         bgImg='https://images.unsplash.com/photo-1557683325-3ba8f0df79de'
         imgAlt='townsquare'
-        title='Townsquare'
-        description='A platform for citizens to make their voices heard on the issues they would like to see resolved in their community.'
+        title='townsquare'
+        description='A place for citizens to make their voices heard on the issues they would like to see resolved in their community. Townsquare aims to make the comments of inidividuals in an area visible to local officals.'
         demoLink='https://jakegrella.com'
         gitHubLink='https://github.com/jakegrella'
-      /> */}
-      <ProjectCard
-        mockImg={dwylcoMock}
-        bgImg='https://images.unsplash.com/photo-1557682233-43e671455dfa'
-        imgAlt='dwylco'
-        title='DWYLCO'
-        description='A community platform for creatives to find jobs and join conversations about topics that interest them. [In progress]'
-        demoLink='https://github.com/jakegrella/dwylco-app'
-        gitHubLink='https://github.com/jakegrella/dwylco-app'
       />
       <ProjectCard
-        mockImg={expatLogMock}
-        bgImg='https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3'
-        imgAlt='the expat log'
-        title='The Expat Log'
-        description='A social media network MVP designed to allow nomads and expats to share their experiences as they travel.'
-        demoLink='https://expatlog-72l1rva6o.vercel.app/'
-        gitHubLink='https://github.com/Expat-Journal-Log'
+        mockImg={lanMock}
+        bgImg='https://images.unsplash.com/photo-1557683325-3ba8f0df79de'
+        imgAlt='relentless drive'
+        title='RELENTLESS DRIVE'
+        description='A place for citizens to make their voices heard on the issues they would like to see resolved in their community. Townsquare aims to make the comments of inidividuals in an area visible to local officals.'
+        demoLink='https://jakegrella.com'
+        gitHubLink='https://github.com/jakegrella'
       />
       <ProjectCard
         mockImg={portfolioMock}
         bgImg='https://images.unsplash.com/photo-1557683325-3ba8f0df79de'
         imgAlt='portfolio site'
-        title='This Portfolio'
-        description='This site used to showcase my work.'
+        title='this site'
+        description='This site used to showcase my work. Although simple, I feel that it is an important piece that is constantly evolving, and allows me to share my work as I desire.'
         demoLink='https://jakegrella.com'
         gitHubLink='https://github.com/jakegrella/devport-cra'
       />
