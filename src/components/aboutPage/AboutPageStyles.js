@@ -65,7 +65,7 @@ const StyledAboutPage = styled.div`
         padding: 0.5rem 1rem;
         margin: 2rem 0 0 0;
         &:hover {
-          border: 2px solid ${(pr) => pr.theme.babyBlue};
+          border: 2px solid ${(pr) => pr.theme.highlighterOrange};
         }
       }
     }

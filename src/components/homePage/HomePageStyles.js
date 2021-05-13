@@ -34,8 +34,8 @@ const StyledHomePage = styled.div`
       color: ${(pr) => pr.theme.black};
       text-transform: lowercase;
       &:hover {
-        color: ${(pr) => pr.theme.babyBlue};
-        border-color: ${(pr) => pr.theme.babyBlue};
+        color: ${(pr) => pr.theme.highlighterOrange};
+        border-color: ${(pr) => pr.theme.highlighterOrange};
       }
     }
   }

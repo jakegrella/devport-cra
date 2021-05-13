@@ -2,6 +2,7 @@ const theme = {
   white: '#FFFFFF',
   black: '#000000',
   // black: '#040910',
+  highlighterOrange: '#ff6700',
   neonYellow: '#FFFF01',
   neonGreen: '#dbfc00',
   neonBlue: '#08F7FE',

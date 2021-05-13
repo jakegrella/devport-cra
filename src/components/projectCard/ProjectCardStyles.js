@@ -49,7 +49,7 @@ const StyledProjectCard = styled.div`
         /* border: 1px solid green; */
         margin-right: 4rem;
         svg:hover {
-          color: ${(pr) => pr.theme.babyBlue};
+          color: ${(pr) => pr.theme.highlighterOrange};
         }
       }
       .tech {

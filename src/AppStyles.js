@@ -39,7 +39,7 @@ const StyledApp = styled.div`
   a {
     text-decoration: underline;
     &:hover {
-      color: ${(pr) => pr.theme.babyBlue};
+      color: ${(pr) => pr.theme.highlighterOrange};
     }
   }
 
@@ -50,7 +50,7 @@ const StyledApp = styled.div`
   svg {
     font-size: 1.8rem;
     &:hover {
-      color: ${(pr) => pr.theme.babyBlue};
+      color: ${(pr) => pr.theme.highlighterOrange};
     }
   }
 `;
