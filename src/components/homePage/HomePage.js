@@ -37,7 +37,9 @@ export default function HomePage() {
             <p>📍 living in: Chicago, IL (suburbs)</p>
           </li>
           <li>
-            <p>👷‍♂️ working on: waterpolo.co</p>
+            <p>
+              👷‍♂️ working on: <a href='http://waterpolo.co/'>waterpolo.co</a>
+            </p>
           </li>
           <li>
             <p>
