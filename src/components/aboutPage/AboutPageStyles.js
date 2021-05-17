@@ -5,7 +5,6 @@ const StyledAboutPage = styled.div`
   flex-flow: column nowrap;
   align-items: center;
   margin: 0 auto;
-  width: 80%;
   .about-top {
     display: flex;
     flex-flow: row nowrap;
@@ -29,7 +28,6 @@ const StyledAboutPage = styled.div`
     .about-top-words {
       display: flex;
       flex-flow: column nowrap;
-      margin: 0 0 0 5rem;
       width: 60%;
       p {
         line-height: 1.2;
