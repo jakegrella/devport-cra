@@ -230,7 +230,7 @@ export default function AboutPage() {
             on them about their level of effort. However, I feel that overall,
             each athlete I coach will remember the overall experience they had
             when I coached them and that it will have an influence on how they
-            lead their life. 
+            lead their life.
           </p>
           <p>
             My experiences have led me to have a real interest in education
@@ -268,17 +268,14 @@ export default function AboutPage() {
         </div>
       </section>
       <section className='about-bottom'>
-        <h3>
-          A Snapshot
-          <br /> About Me:
-        </h3>
         <div className='about-bottom-apiBlurbs'>
+          <h3>a snapshot about me:</h3>
           <a
             href='https://github.com/jakegrella'
             target='_blank'
             rel='noreferrer'>
             <p>repos on github</p>
-            <p>90</p>
+            <p>92</p>
           </a>
           <a
             href='https://unsplash.com/@jakegrella'
@@ -299,7 +296,7 @@ export default function AboutPage() {
             target='_blank'
             rel='noreferrer'>
             <p>tweets</p>
-            <p>97</p>
+            <p>106</p>
           </a>
         </div>
       </section>
