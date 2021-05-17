@@ -1,19 +1,16 @@
 import styled from 'styled-components';
 
 const StyledAboutPage = styled.div`
-  /* border: 1px solid red; */
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   margin: 0 auto;
   width: 80%;
   .about-top {
-    /* border: 1px solid blue; */
     display: flex;
     flex-flow: row nowrap;
     margin: 0 0 15rem 0;
     .about-top-imgAndLinks {
-      /* border: 1px solid green; */
       display: flex;
       flex-flow: column nowrap;
       img {
@@ -30,15 +27,10 @@ const StyledAboutPage = styled.div`
       }
     }
     .about-top-words {
-      /* border: 1px solid salmon; */
       display: flex;
       flex-flow: column nowrap;
       margin: 0 0 0 5rem;
       width: 60%;
-      h2 {
-        font-size: 7.2rem;
-        margin: 0 0 4rem 0;
-      }
       p {
         line-height: 1.2;
         margin-bottom: 1rem;
@@ -46,14 +38,12 @@ const StyledAboutPage = styled.div`
     }
   }
   .about-bottom {
-    /* border: 1px solid cyan; */
     display: flex;
     flex-flow: row nowrap;
     h3 {
       font-size: 4.8rem;
     }
     .about-bottom-apiBlurbs {
-      /* border: 1px solid magenta; */
       margin: 0 0 0 2rem;
       a {
         display: flex;
