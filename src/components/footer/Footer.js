@@ -20,14 +20,8 @@ export default function Footer() {
         </a>
       </div>
       <div>
-        <a
-          href='https://unsplash.com/@jakegrella'
-          target='_blank'
-          rel='noreferrer'>
-          photo
-        </a>
-        <a href='https://www.dwylco.com' target='_blank' rel='noreferrer'>
-          RELENTLESS DRIVE ⚠️
+        <a href='https://meet.jakegrella.com' target='_blank' rel='noreferrer'>
+          meet.jakegrella.com
         </a>
       </div>
     </StyledFooter>
