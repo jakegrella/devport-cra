@@ -6,7 +6,7 @@ import portfolioMock from '../../assets/portfolio-mock.png';
 export default function projectsPage() {
   return (
     <section className='project-cards-section'>
-      <ProjectCard
+      {/* <ProjectCard
         mockImg={lanMock}
         bgImg='https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3'
         imgAlt='waterpolo.co'
@@ -14,7 +14,7 @@ export default function projectsPage() {
         description='A platform for users to access everything about the sport of water polo. From news to rules to stats and rankings, the goal of waterpolo.co is to grow the community around water polo. There is also a heavy emphasis on post high school options for athletes.'
         demoLink='https://waterpolo.co'
         gitHubLink='https://github.com/Lambda-School-Labs/lan-fe-a'
-      />
+      /> */}
       <ProjectCard
         mockImg={lanMock}
         bgImg='https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3'
@@ -24,7 +24,7 @@ export default function projectsPage() {
         demoLink='https://main.d37zm5ayhfot8q.amplifyapp.com/'
         gitHubLink='https://github.com/Lambda-School-Labs/lan-fe-a'
       />
-      <ProjectCard
+      {/* <ProjectCard
         mockImg={lanMock}
         bgImg='https://images.unsplash.com/photo-1557683325-3ba8f0df79de'
         imgAlt='townsquare'
@@ -32,8 +32,8 @@ export default function projectsPage() {
         description='A place for citizens to make their voices heard on the issues they would like to see resolved in their community. Townsquare aims to make the comments of inidividuals in an area visible to local officals.'
         demoLink='https://jakegrella.com'
         gitHubLink='https://github.com/jakegrella'
-      />
-      <ProjectCard
+      /> */}
+      {/* <ProjectCard
         mockImg={lanMock}
         bgImg='https://images.unsplash.com/photo-1557683325-3ba8f0df79de'
         imgAlt='relentless drive'
@@ -41,7 +41,7 @@ export default function projectsPage() {
         description='A place for citizens to make their voices heard on the issues they would like to see resolved in their community. Townsquare aims to make the comments of inidividuals in an area visible to local officals.'
         demoLink='https://jakegrella.com'
         gitHubLink='https://github.com/jakegrella'
-      />
+      /> */}
       <ProjectCard
         mockImg={portfolioMock}
         bgImg='https://images.unsplash.com/photo-1557683325-3ba8f0df79de'
