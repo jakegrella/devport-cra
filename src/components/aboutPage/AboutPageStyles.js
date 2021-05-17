@@ -14,14 +14,15 @@ const StyledAboutPage = styled.div`
       flex-flow: column nowrap;
       img {
         width: 35rem;
-        margin: 0 0 1rem 0;
+        margin: 0 1rem 1rem 0;
       }
       .about-top-links {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-around;
+        justify-content: flex-start;
         a {
           color: ${(pr) => pr.theme.black};
+          margin: 0 2rem 0 0;
         }
       }
     }
