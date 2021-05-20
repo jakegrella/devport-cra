@@ -9,16 +9,16 @@ export default function HomePage() {
         <p>
           Hey and thanks for visiting my small corner of the internet. I'm a
           software developer with a dedication to good product design and an
-          interst in business. I enjoy brainstorming new ideas and then building
-          them. I love working on projects that help people, and if you or your
-          company does that then I'd love to talk.
+          interest in business and education systems. I enjoy brainstorming new
+          ideas and then building them. I love working on projects that help
+          people, and if you or your company does that then I'd love to talk.
         </p>
         <br />
         <p>
           I'm passionate about many things, including education & coaching,
-          climate tech & electric vehicles, and photography. I think
-          well-written code, good design, and a strong business model can go a
-          really long way.
+          climate tech & electric vehicles, cryptocurrency, and photography. I
+          think well-written code, good design, and a strong business model can
+          go a really long way.
         </p>
         <br />
         <p>
